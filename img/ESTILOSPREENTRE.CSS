@@ -1,0 +1,271 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color:rgb(6, 6, 6);
+ 
+}
+
+header
+ {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    size: 10px;
+    color: white;
+    border-top:15px double white;
+    border-bottom:15px double white;
+}
+
+.logo img {
+    height: 130px;
+    width: 140px;
+    padding-left: 40px;
+    align-items: center;
+}
+
+main
+{
+    background-color:black;
+    width: auto
+    height: 20%;
+    padding: 0;
+}
+
+.izq
+{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.izq img
+{
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+.der
+{
+        height: 100%;
+    width: 50%;
+    float: right;
+     
+}
+
+.der img
+{
+    width: 100%;
+    height: 450px;  
+    float: right;
+}
+
+.banner
+{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding-bottom: 40px;
+    padding-top: 0;
+    align-items: center;
+}
+.historia
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:black;
+    
+}
+
+.serv
+{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    display:inline-block
+}
+
+.galeria img
+{
+    background-color:black;
+    align-items: center;
+    justify-items: center;
+    overflow:auto;
+}
+
+.borde
+{
+    border-top:10px double  black;
+}
+nav ul {
+     padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    font-size: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0e0d0d; 
+}
+
+.productos
+ {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+h2
+{
+    text-align: center;
+    tab-size: auto;
+}
+.productos img 
+{
+    max-width: 100%; 
+    max-height: 100%; 
+    align-items: center;
+    display:inline-table;
+    
+}
+p
+{
+    text-align: center;
+}
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.productos
+{
+    align-items: center;
+    margin: auto;
+        display: flex;
+}
+
+.productos img
+{
+    align-items: center;
+    padding-left: 500px;
+}
+    
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+footer {
+    background-color: #090909;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #050505;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+}
+
+.galeria
+{
+    align-items: center;
+    display: flexbox;
+    padding-left: 250px;
+}
+
+.whatsapp img
+{
+    width: 100px;
+    height: 100px;
+    align-items:center;
+}
+
+
+footer {
+    background-color: #112240;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navegacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegacion ul li {
+    display:inline-table;
+    margin-right: 20px;
+}
+
+.navegacion ul li a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-left: 50px;
+    align-items: center;
+    
+}
+
+.imagenes 
+{
+    display: flex;
+}
+
+.imagenes img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    margin-right: 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+.derechos {
+    margin-top: 20px;
+}
+
